@@ -101,7 +101,7 @@ const CHARS: &[char] = &[
 ];
 
 pub const RENDEZVOUS_SERVERS: &[&str] = &["op.nasvpn.vip"];
-pub const PUBLIC_RS_PUB_KEY: &str = "4qmdizQRtXnko1bXBgBY8p4Csd5W70jutfCjMfWQ1Xg=";
+pub const PUBLIC_RS_PUB_KEY: &str = "Magic5120kb=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
     Some(key) if !key.is_empty() => key,
